@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home"
+    >
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="Found Something"
+        android:textSize="25sp"
+        android:onClick="post"
+        android:backgroundTint="#C8C13F"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="Lost Something"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:onClick="search"
+        android:backgroundTint="#C8C13F"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:text="Show All Items"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:onClick="show"
+        android:backgroundTint="#C8C13F"
+        />
+
+</LinearLayout>

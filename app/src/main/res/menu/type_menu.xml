@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Bag"
+        android:id="@+id/type_bag"
+        />
+    <item
+        android:title="Mobile"
+        android:id="@+id/type_mobile"
+        />
+    <item
+        android:title="Laptop"
+        android:id="@+id/type_laptop"
+        />
+    <item
+        android:title="Wallet"
+        android:id="@+id/type_wallet"
+        />
+    <item
+        android:title="Purse"
+        android:id="@+id/type_purse"
+        />
+    <item
+        android:title="Other"
+        android:id="@+id/type_other"
+        />
+
+</menu>
